@@ -85,7 +85,7 @@ st.markdown(
 
 # Session state initialization
 defaults = {
-    "messages": [],              # chat history: [{"role": "user"/"assistant", "content": str}]
+    "messages": [],              
     "conversation_active": True, # False once the user chooses to exit
     "last_audio_hash": None,     # fingerprint of the last processed audio clip
     "recognized_text": "",       # last transcribed voice text, editable before sending
