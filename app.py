@@ -87,7 +87,7 @@ st.markdown(
 defaults = {
     "messages": [],              
     "conversation_active": True, 
-    "last_audio_hash": None,     # fingerprint of the last processed audio clip
+    "last_audio_hash": None,    
     "recognized_text": "",       # last transcribed voice text, editable before sending
 }
 for key, value in defaults.items():
