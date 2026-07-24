@@ -88,7 +88,7 @@ defaults = {
     "messages": [],              
     "conversation_active": True, 
     "last_audio_hash": None,    
-    "recognized_text": "",       # last transcribed voice text, editable before sending
+    "recognized_text": "",     
 }
 for key, value in defaults.items():
     if key not in st.session_state:
